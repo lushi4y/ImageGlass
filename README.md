@@ -21,9 +21,10 @@ Built enterprise-ready, ImageGlass Pro supports managed deployment through prese
 
 [**🌐 Website**](https://imageglass.org) &nbsp;•&nbsp;
 [**📥 Pricing**](https://imageglass.org/pricing) &nbsp;•&nbsp;
+[**🧩 Plugins**](https://imageglass.org/plugins) &nbsp;•&nbsp;
+[**📐 Tools**](https://imageglass.org/tools) &nbsp;•&nbsp;
 [**📚 Docs**](https://imageglass.org/docs) &nbsp;•&nbsp;
-[**💬 Discord**](https://discord.gg/tWjbynH2X8) &nbsp;•&nbsp;
-[**💖 Donate**](https://imageglass.org/donate)
+[**💬 Support**](https://imageglass.org/support)
 
 <br/>
 
@@ -93,6 +94,28 @@ Primarily a photo viewer, ImageGlass offers a wide array of features geared towa
 - Windows: Custom file type icon pack (Not available for Store release)
 
 👉 Visit https://imageglass.org/docs/features to explore all features of ImageGlass.
+
+<br/>
+
+
+## Plugins & Tools
+Extend ImageGlass with codec plugins that open more image formats, and with tools that work alongside it.
+
+
+| Plugin | Author | Description | Platforms |
+| :--- | :--- | :--- | :--- |
+| [AVIF Codec](https://github.com/aplefull/imageglass-avif-plugin) | [aplefull](https://github.com/aplefull) | Opens still and animated `.avif` files, using libavif, dav1d and libyuv | Windows, macOS, Linux |
+| [WIC Codec](https://github.com/d2phap/wic-imageglass-plugin) | [d2phap](https://github.com/d2phap) | Brings the Windows Imaging Component in as a native codec, including JPEG XR (`.jxr`, `.hdp`, `.wdp`) | Windows |
+| [APNG Codec](https://github.com/d2phap/apng-imageglass-plugin) | [d2phap](https://github.com/d2phap) | Plays animated `.apng` files | Windows, macOS, Linux |
+| [ITHMB Codec](https://github.com/B67687/Imageglass-Ithmb-Plugin) | [B67687](https://github.com/B67687) | Decodes `.ithmb` thumbnail files using [Ithmb-Codec](https://github.com/B67687/Ithmb-Codec) | Windows, macOS, Linux |
+
+
+| Tool | Author | Description | Platforms |
+| :--- | :--- | :--- | :--- |
+| [ExifGlass](https://github.com/d2phap/ExifGlass) | [d2phap](https://github.com/d2phap) | Reads the camera settings, lens, location, and color profile in any photo | Windows, macOS, Linux |
+| [FewerPhotos](https://imageglass.org/fewerphotos) | [d2phap](https://github.com/d2phap) | Cleans up the photo folders you already have: duplicates, blurry shots, and sorting by date | Windows, macOS |
+
+👉 Browse the [plugins](https://imageglass.org/plugins) and [tools](https://imageglass.org/tools), or build your own with [ImageGlass.SDK](https://imageglass.org/docs/codec-plugins).
 
 <br/>
 
